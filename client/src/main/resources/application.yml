@@ -1,0 +1,8 @@
+#spring.profiles.active: ${SPRING_PROFILES_ACTIVE:prod}
+
+server.port: ${SERVER_PORT:8080}
+
+grpc:
+  helloworld:
+    host: ${GRPC_HELLOWORLD_HOST:demo-server}
+    port: ${GRPC_HELLOWORLD_PORT:50051}
